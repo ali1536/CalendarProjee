@@ -1,0 +1,121 @@
+html , body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    font-style: italic;
+    background-color: aqua;
+}
+.calender{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+.calender .date{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25px,1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+.calender .date div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: #262626;
+}
+.calender .date div.day{
+    font-weight: 700px;
+}
+.calender .image h2 , .calender .image h3{
+    margin: 0px;
+    padding: 0px;
+}
+.calender .date div.day:first-child ,
+.calender .date div.number:nth-child(7n + 1)
+{
+    color: red;
+    font-weight: 700px;
+}
+.calender .date div.number.active{
+    background: #009688;
+    color: #FFF;
+    font-weight: 700px;
+    cursor: pointer;
+}
+Form {
+    border: 1px solid aqua;
+}
+div{
+    padding: 10px;
+    font-weight: bolder;
+}
+input{
+    border-color:cornflowerblue;
+    border-radius: 10px;
+}
+button{
+    background-color:aquamarine;
+    border-radius: 30px;
+    font-style: italic;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    margin: 30px;
+}
+div.nam_famil input{
+    width: 250px; ;
+}
+div.hei_wei input{
+    width: 240px;
+}
+div.History_Training input{
+    padding:0px 50px;
+    width: 100px;
+}
+option{
+    background-color: black;
+    color: white;
+}
+div.Injury input{
+    padding:0px 40px;
+    width: 112px;
+}
+.Time_Training input{
+    width: 520px;
+}
+.Aerobic input{
+    width: 150px;
+}
+.Limite input{
+    width: 150px;
+}
+.Muscle input{
+    width: 150px;
+}
+.Supplement input{
+    width: 475px;
+}
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.date-grid button:first-child {
+    grid-column: 6;
+  }
+  
+
+
+
+
+
+
+
+
